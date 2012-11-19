@@ -9,8 +9,9 @@ Scripts (shell and perl) that will:
 
 Short term improvements:
 - 1. auto trac login to fetch data
-- 2. add trac user and password encrypted repository 
-- 3. sort direction option
+- 2. add projects option
+- 3. add trac user and password encrypted repository 
+- 4. sort direction option
 
 Plausible long term improvements:
 - Automatic generation of diagrams and reports, instead of manually importing the data and generating the report.
