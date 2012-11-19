@@ -8,7 +8,9 @@ Scripts (shell and perl) that will:
 - 4. Generate e-mails to keep track of changes
 
 Short term improvements:
-- sort direction option
+- 1. auto trac login to fetch data
+- 2. add trac user and password encrypted repository 
+- 3. sort direction option
 
 Plausible long term improvements:
 - Automatic generation of diagrams and reports, instead of manually importing the data and generating the report.
