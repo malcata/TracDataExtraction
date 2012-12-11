@@ -8,8 +8,8 @@ Scripts (shell and perl) that will:
 - 4. Generate e-mails to keep track of changes
 
 Short term improvements:
-- 1. generalization
-- 2. add script arguments
+DONE - 1. generalization
+DONE - 2. add script arguments
 - 3. move working directory to /tmp 
 - 3. auto trac login to fetch data
 - 4. add trac user and password encrypted repository 
