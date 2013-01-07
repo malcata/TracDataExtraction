@@ -22,8 +22,8 @@ project=$1
 #cd ~/scripts
 
 #CSV header
-#echo "project,id,status,type,summary,created,modified,component,priority,severity,owner" > temp/defects.csv
-#echo "project,id,status,type,summary,created,modified,component,priority,severity,owner" > temp/bugs.csv
+#echo "project,product,id,status,type,summary,created,modified,component,priority,severity,owner" > temp/defects.csv
+#echo "project,product,id,status,type,summary,created,modified,component,priority,severity,owner" > temp/bugs.csv
 
 printf "Hi,\nIn attach follows the top ticket list ordered by Severity and then Priority and ID, defects always come first.\nPlease fix tickets ordered this way.\n\n" > temp/mailbody.txt
 

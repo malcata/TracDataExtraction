@@ -27,7 +27,7 @@ cat $project.TracData.today.csv | sed -e 's/T\([0-9][0-9]\):\([0-9][0-9]\):\([0-
 mv $project.TracData.today.clean.csv $project.TracData.today.csv
 
 # load header
-echo "project,id,status,type,summary,created,modified,component,priority,severity,owner" > temp/diff.csv
+echo "project,product,id,status,type,summary,created,modified,component,priority,severity,owner" > temp/diff.csv
 
 # search for differences
 # diff exclude control lines, factories and projects removed for ageing, exclude temps
