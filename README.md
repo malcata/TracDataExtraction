@@ -1,6 +1,11 @@
 TracDataExtraction
 ==================
 
+Requirements:
+- curl
+- MIME/Lite.pm (libmime-lite-perl)
+- AppConfig module (libappconfig-perl)
+
 Scripts (shell and perl) that will:
 - 1 download data from trac
 - 2. analyse it
